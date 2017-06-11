@@ -6,8 +6,9 @@ xbmc.executebuiltin('CECStandby')
 #try:
         #params = urlparse.parse_qs('&'.join(sys.argv[1:]))
         #command = params.get('command',None)
-        #xbmc.executebuiltin('CECStandby')
+    #xbmc.executebuiltin('CECStandby')
 #except:
+    #xbmc.executebuiltin('Notification(Hello, What, The Fuck)')
         #command = None
         
 #if command and command[0] == 'activate':
